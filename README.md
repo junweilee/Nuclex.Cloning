@@ -12,11 +12,16 @@ This library can be used staticly or injected using the ICloneFactory interface.
 Usage
 --------------
 
-	var original = new ComplicatedStuff(42);
+    var original = new ComplicatedStuff(42);
 
 	ComplicatedStuff clone1 = ReflectionCloner.DeepFieldClone(original);
 
 or
-	// you need to make sure you are invoking via ICloneFactory, the var keyword will not work since the implemented methods are static
+
+    /* 
+        You need to make sure you are invoking via ICloneFactory, the var keyword will not work since the implemented methods are 
+        static 
+    */
 	 ICloneFactory cloner = new ReflectionCloner(); 
+	 
 	 var clone = cloner.DeepFieldClone(original);
