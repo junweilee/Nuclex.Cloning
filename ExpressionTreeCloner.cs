@@ -139,53 +139,6 @@
             return DeepPropertyClone(objectToClone);
         }
 
-#if false
-    /// <summary>
-    ///   Transfers the state of one object into another, creating clones of referenced objects
-    /// </summary>
-    /// <typeparam name="TState">Type of the object whose sate will be transferred</typeparam>
-    /// <param name="original">Original instance the state will be taken from</param>
-    /// <param name="target">Target instance the state will be written to</param>
-    /// <param name="propertyBased">Whether to perform a property-based state copy</param>
-    public void DeepCopyState<TState>(TState original, TState target, bool propertyBased)
-      where TState : class {
-      throw new NotImplementedException();
-    }
-
-    /// <summary>
-    ///   Transfers the state of one object into another, creating clones of referenced objects
-    /// </summary>
-    /// <typeparam name="TState">Type of the object whose sate will be transferred</typeparam>
-    /// <param name="original">Original instance the state will be taken from</param>
-    /// <param name="target">Target instance the state will be written to</param>
-    /// <param name="propertyBased">Whether to perform a property-based state copy</param>
-    public void DeepCopyState<TState>(ref TState original, ref TState target, bool propertyBased)
-      where TState : struct {
-      throw new NotImplementedException();
-    }
-
-    /// <summary>Transfers the state of one object into another</summary>
-    /// <typeparam name="TState">Type of the object whose sate will be transferred</typeparam>
-    /// <param name="original">Original instance the state will be taken from</param>
-    /// <param name="target">Target instance the state will be written to</param>
-    /// <param name="propertyBased">Whether to perform a property-based state copy</param>
-    public void ShallowCopyState<TState>(TState original, TState target, bool propertyBased)
-      where TState : class {
-      throw new NotImplementedException();
-    }
-
-    /// <summary>Transfers the state of one object into another</summary>
-    /// <typeparam name="TState">Type of the object whose sate will be transferred</typeparam>
-    /// <param name="original">Original instance the state will be taken from</param>
-    /// <param name="target">Target instance the state will be written to</param>
-    /// <param name="propertyBased">Whether to perform a property-based state copy</param>
-    public void ShallowCopyState<TState>(ref TState original, ref TState target, bool propertyBased)
-      where TState : struct {
-      throw new NotImplementedException();
-    }
-
-#endif
-
         /// <summary>
         ///     Retrieves the existing clone method for the specified type or compiles one if
         ///     none exists for the type yet
