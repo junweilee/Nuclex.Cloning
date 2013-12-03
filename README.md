@@ -9,6 +9,8 @@ if it works well I intend to publish it to NuGet as well, as currently at 03/Dec
 
 This library can be used staticly or injected using the ICloneFactory interface.
 
+Licensed under Common Public License V1 http://opensource.org/licenses/cpl1.0.php
+
 Usage
 --------------
 

@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Nuclex.Cloning")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright (C) 2002-2012 Nuclex Development Labs")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
