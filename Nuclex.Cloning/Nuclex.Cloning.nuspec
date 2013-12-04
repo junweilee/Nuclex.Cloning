@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Nuclex.Cloning</id>
+		<version>$version$</version>
+        <authors>junwei.lee</authors>
+        <owners>Nuclex Development Labs</owners>
+        <licenseUrl>http://opensource.org/licenses/cpl1.0.php</licenseUrl>
+        <projectUrl>https://github.com/junweilee/Nuclex.Cloning/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is a C# based .NET 4 library that is used to deep clone objects, whether they are serializable or not. 
+It intends to be much faster than the normal binary serialization method of deep cloning objects.
+
+This is basically just slightly tidied up code from http://blog.nuclex-games.com/mono-dotnet/fast-deep-cloning/
+
+This library can be used staticly or injected using the ICloneFactory interface.</description>
+        <summary>Deep cloning library for .NET 4 that uses expression trees or reflection for faster (than BinarySerializer) cloning!</summary>
+        <copyright>Copyright (C) 2002-2012 Nuclex Development Labs</copyright>
+        <language>en-AU</language>
+        <tags>clone deepclone copy</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+ 
+</package>
